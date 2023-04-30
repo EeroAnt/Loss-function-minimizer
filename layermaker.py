@@ -1,7 +1,8 @@
 #First we configure the layers (how many there are and how deep each one is)
 layers = []
 layers.append(int(input("How wide is the first layer?")))
-more=input("Would you like a layer in the middle?(y/n)")
+layers.append(int(input("How wide is the middle layer?")))
+more=input("Would you like another layer in the middle?(y/n)")
 while more == "y":
     layers.append(int(input("How wide is this layer?")))
     more=input("Would you like another layer in the middle?(y/n)")
