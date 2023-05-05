@@ -3,7 +3,7 @@ Basics of mathematics in machine learning extra assignment
 
 layermaker.py writes a .m-file that has a neuron network with a first layer, at least 1 middle layer and a last layer.
 First it asks for the width of the first layer and the first middle layer. After that it asks, if you'd like to add a middle layer
-and if you answer (y)es, it will ask for the width of this new layer. This will repeat, until you have opt to not make another
+and if you answer (y)es, it will ask for the width of this new layer. This will repeat, until you have opt not to make another
 middle layer. The last layer is automatically included and then the rest of configuration happens in matlab.
 
 When running the .m-file you will be asked for the learning rate, how many uniform slices does the training data consist of, 
