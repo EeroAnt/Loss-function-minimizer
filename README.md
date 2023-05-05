@@ -11,3 +11,5 @@ the amount of datapoints, where they start from and their spacing, for each slic
 
 The script matches the first and the last layers' dimensions with your given training data and does starts to iterate gradient descent
 to find the minimum for the loss function. It either runs for a bit and stops with no results or it reaches the set precision and halts.
+
+The .m files will be created in your active folder. If ran from terminal, it is created in the same directory where the layermaker is also, but I just ran it with VSC while the active folder was one for another course and it did take me a couple of minutes to locate the file.
